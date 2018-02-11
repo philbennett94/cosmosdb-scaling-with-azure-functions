@@ -18,4 +18,6 @@ This guide will walk you through creating an Azure function that scales up throu
   2. Publish the function to Azure.
   3. connect the function to a CosmosDB account alert using a webhook. 
 
-Some things to consider before implementing this solution: The solution only scales up, but can be used to scale down if you supply a negative value for the CosmosDB_RUIncrement settings attribute. It is suggested to implement a limit on scaling to keep your bill manageable. Alerts are set at the account level meaning that this function will be triggered any time a resource under the account, for which the alert was set, is throttled.
+**For your consideration** 
+
+The solution only scales up, but can be used to scale down if you supply a negative value for the CosmosDB_RUIncrement settings attribute. It is suggested to implement a limit on scaling to keep your bill manageable. Alerts are set at the account level meaning that this function will be triggered any time a resource under the account, for which the alert was set, is throttled.
