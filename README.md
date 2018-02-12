@@ -1,7 +1,7 @@
 # cosmosdb-scaling-with-azure-functions
 An example of how to use Azure Functions to scale a Cosmos DB collection.
 
-- Tutorial: `Scaling_On_429_AZFX.pdf`
+- Tutorial: `scaling_tutorial.pdf`
 - Function Code: `CosmosScaling.cs`
 
 **Requirements**
